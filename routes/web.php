@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/', 'MainController@index');
+Route::get('/', function(){echo "<strong>Link expired.</strong>";});
+#Route::get('/', 'MainController@index');
